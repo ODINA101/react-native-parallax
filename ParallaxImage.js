@@ -17,13 +17,13 @@ var {
 var WINDOW_HEIGHT = Dimensions.get('window').height;
 
 var ParallaxImage = React.createClass({
-  propTypes: {
-    onPress:        React.PropTypes.func,
-    scrollY:        React.PropTypes.object,
-    parallaxFactor: React.PropTypes.number,
-    imageStyle:     Image.propTypes.style,
-    overlayStyle:   View.propTypes.style,
-  },
+//   propTypes: {
+//     onPress:        React.PropTypes.func,
+//     scrollY:        React.PropTypes.object,
+//     parallaxFactor: React.PropTypes.number,
+//     imageStyle:     Image.propTypes.style,
+//     overlayStyle:   View.propTypes.style,
+//   },
 
   getDefaultProps: function() {
     return {
